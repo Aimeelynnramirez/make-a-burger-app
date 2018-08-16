@@ -9,6 +9,6 @@ This was created by React App.
 
 -Click Link for Demo: 
 ------------------------------------------------------
-![alt text]([!Alt](https://i.imgur.com/nsFNyyS.png)
+![alt text](https://i.imgur.com/nsFNyyS.png "Burger Logo")
 ------------------------------------------------------
 
