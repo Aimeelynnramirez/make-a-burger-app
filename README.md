@@ -10,6 +10,6 @@ This was created by React App.
 -Click Link for Demo: 
 ------------------------------------------------------
 ![alt text]([!Alt](https://i.imgur.com/nsFNyyS.png "Burger Logo")
-![alt text]([!Alt](https://i.imgur.com/7XRm1g5.png "template model")
 ------------------------------------------------------
 
+![alt text]([!Alt](https://i.imgur.com/7XRm1g5.png "template model")
