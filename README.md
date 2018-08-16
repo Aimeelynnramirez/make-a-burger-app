@@ -7,10 +7,12 @@ https://make-a-burger-app.herokuapp.com
 - `npm run start`
 
 # This was created by React App. 
+
 # left to right:
-   - sidebar 
+   - navbar
+   - sidebar (mobile)
    - two content containers
-   - nav
+ 
 ------------------------------------------------------
 ![alt text](https://i.imgur.com/7XRm1g5m.png "template model")
 
