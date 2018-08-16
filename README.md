@@ -17,7 +17,7 @@ https://make-a-burger-app.herokuapp.com
    - two content containers
  
 ------------------------------------------------------
-![alt text](https://i.imgur.com/7XRm1g5m.png "template model")
+![alt text](https://i.imgur.com/7XRm1g5.png "template model")
 
 
 
