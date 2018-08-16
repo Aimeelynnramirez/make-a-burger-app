@@ -8,6 +8,8 @@
 This was created by React App. 
 
 -Click Link for Demo: 
+![alt text](https://i.imgur.com/7XRm1g5.png "template model")
+
 ------------------------------------------------------
 ![alt text](https://i.imgur.com/nsFNyyS.png "Burger Logo")
 ------------------------------------------------------
