@@ -9,7 +9,7 @@ https://make-a-burger-app.herokuapp.com
 This was created by React App. 
 
 ------------------------------------------------------
-![alt text](https://i.imgur.com/7XRm1g5.png "template model")
+![alt text](https://i.imgur.com/7XRm1g5m.png "template model")
 
 ------------------------------------------------------
 ![alt text](https://i.imgur.com/nsFNyyS.png "Burger Logo")
