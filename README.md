@@ -2,6 +2,7 @@ Click Link for Demo:
 https://make-a-burger-app.herokuapp.com
 
 # Make a Burger App
+![alt text](https://i.imgur.com/nsFNyyS.png "Burger Logo")
 
 [![build:passed](https://travis-ci.org/facebook/create-react-app.svg?branch=next)](https://travis-ci.org/facebook/create-react-app#)
 
@@ -18,8 +19,8 @@ https://make-a-burger-app.herokuapp.com
 ------------------------------------------------------
 ![alt text](https://i.imgur.com/7XRm1g5m.png "template model")
 
-![alt text](https://i.imgur.com/nsFNyyS.png "Burger Logo")
 
-------------------------------------------------------
+
+
 
 
