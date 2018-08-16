@@ -9,7 +9,9 @@ https://make-a-burger-app.herokuapp.com
 - `npm install`
 - `npm run start`
 
-# This was created by React App. 
+# This was created by React App.
+# and Firebase backend API.
+
 
 # left to right:
    - navbar
