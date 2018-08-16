@@ -12,4 +12,3 @@ This was created by React App.
 ![alt text]([!Alt](https://i.imgur.com/nsFNyyS.png "Burger Logo")
 ------------------------------------------------------
 
-![alt text]([!Alt](https://i.imgur.com/7XRm1g5.png "template model")
