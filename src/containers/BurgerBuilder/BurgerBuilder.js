@@ -33,7 +33,7 @@ class BurgerBuilder extends Component {
         purchasing: false,
         loading: false
     }
- componentDidMount () {
+ componentWillMount () {
      axios.get('https://make-a-burger-app.firebaseio.com/ingredients.json')
      .then (response =>{
    this.setState ({
