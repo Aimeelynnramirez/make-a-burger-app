@@ -38,7 +38,7 @@ class BurgerBuilder extends Component {
      .then (response =>{
    this.setState ({
        ingredients: response.data
-   });
+   })
      });
  }
     updatePurchaseState ( ingredients ) {
