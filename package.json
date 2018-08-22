@@ -93,5 +93,18 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "description": "Click Link for Demo:  https://make-a-burger-app.herokuapp.com",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimeelynnramirez/make-a-burger-app.git"
+  },
+  "author": "Aimee",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Aimeelynnramirez/make-a-burger-app/issues"
+  },
+  "homepage": "https://github.com/Aimeelynnramirez/make-a-burger-app#readme"
 }
