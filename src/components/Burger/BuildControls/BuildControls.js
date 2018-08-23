@@ -4,8 +4,11 @@ import BuildControl from './BuildControl/BuildControl';
 
 
 function refreshPage(){ 
-    window.location.reload(); 
-} 
+    var initialPage = window.location.pathname;
+    window.location.replace(
+        ('/build' + initialPage));
+    }
+
 const controls = [
     { label: 'Salad', type: 'salad' },
     { label: 'Bacon', type: 'bacon' },
