@@ -6,7 +6,7 @@ import BuildControl from './BuildControl/BuildControl';
 function refreshPage(){ 
     var initialPage = window.location.pathname;
     window.location.replace(
-        ('/dashboard' + initialPage));
+        ('/make-a-burger-app/' + initialPage));
     }
 
 const controls = [
