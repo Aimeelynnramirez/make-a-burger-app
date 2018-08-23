@@ -2,11 +2,11 @@ import React from 'react';
 import classes from './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
 
-
+//redirecting in js
 function refreshPage(){ 
     var initialPage = window.location.pathname;
     window.location.replace(
-        ('/build' + initialPage));
+        ('/dashboard' + initialPage));
     }
 
 const controls = [
