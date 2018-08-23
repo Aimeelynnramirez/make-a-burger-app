@@ -1,8 +1,9 @@
 import React from 'react';
-
 import classes from './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
-
+function refreshPage(){ 
+    window.location.reload(); 
+} 
 const controls = [
     { label: 'Salad', type: 'salad' },
     { label: 'Bacon', type: 'bacon' },
@@ -12,7 +13,7 @@ const controls = [
 
 const buildControls = (props) => (
     <div className={classes.BuildControls}>
-        <p>Current Price: <strong>{props.price.toFixed(2)}</strong></p>
+ 
         {controls.map(ctrl => (
             <BuildControl 
                 key={ctrl.label} 
@@ -21,10 +22,24 @@ const buildControls = (props) => (
                 removed={() => props.ingredientRemoved(ctrl.type)}
                 disabled={props.disabled[ctrl.type]} />
         ))}
-        <button 
+       <p className={classes.Boxes}> 
+       <button 
+            className={classes.RedoOrderButton}
+            disabled={!props.purchasable}
+            type="button" 
+            onClick={ refreshPage }
+            > 
+            <span>REDO ORDER</span> </button> 
+     
+            <p className={classes.Box}>Current Price: <strong>{props.price.toFixed(2)}</strong>
+            </p>
+            <button 
             className={classes.OrderButton}
             disabled={!props.purchasable}
-            onClick={props.ordered}>ORDER NOW</button>
+            onClick={props.ordered}>ORDER NOW</button>   
+            
+            </p>
+ 
     </div>
 );
 

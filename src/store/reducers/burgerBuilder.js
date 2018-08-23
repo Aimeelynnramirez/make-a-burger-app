@@ -3,7 +3,7 @@ import { updateObject } from '../utility';
 
 const initialState = {
     ingredients: null,
-    totalPrice: 0.7,
+    totalPrice: 4,
     error: false
 };
 
