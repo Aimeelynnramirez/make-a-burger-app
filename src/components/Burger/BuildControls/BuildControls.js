@@ -7,7 +7,7 @@ import { Link, Route } from 'react-router-dom';
 function refreshPage(){ 
     var initialPage = window.location.pathname;
     window.location.replace(
-        (initialPage + '/make-a-burger-app' ));
+        ("/make-a-burger-app"+ initialPage ));
     }
  
 const controls = [
