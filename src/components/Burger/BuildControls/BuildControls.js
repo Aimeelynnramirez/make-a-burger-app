@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
+
+
 function refreshPage(){ 
     window.location.reload(); 
 } 
@@ -30,7 +32,7 @@ const buildControls = (props) => (
             onClick={ refreshPage }
             > 
             <span>REDO ORDER</span> </button> 
-     
+          
             <p className={classes.Box}>Current Price: <strong>{props.price.toFixed(2)}</strong>
             </p>
             <button 

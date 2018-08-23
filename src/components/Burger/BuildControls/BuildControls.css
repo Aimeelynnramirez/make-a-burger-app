@@ -9,19 +9,28 @@
     padding: 10px 0;
 }
 .Boxes{
-   
-    display: flex;
-   align-items: stretch;
+    display: inherit;
+ 
 
 }
 .Box{
+   max-width: 50%;
     background-color:#fff;
-    color:black;
+    color:#000;
+    outline:#888888;
+    font-family: inherit;
     font-size: 1.2em;
-    box-shadow: 2px 2px 2px #966909;
-    border: 1px solid #966909;
     padding: 15px 30px;
+    margin: 0 5px;
+    box-shadow: 2px 2px 2px #966909;
     text-align: center;
+
+}
+strong{
+    background-color:#fff;
+    color:purple;
+   
+    
 
 }
 .OrderButton {
@@ -32,7 +41,7 @@
     color: #966909;
     font-family: inherit;
     font-size: 1.2em;
-    padding: 15px 30px;
+    padding: 15px;
     box-shadow: 2px 2px 2px #966909;
 }
 
@@ -60,12 +69,12 @@
     color: #966909;
     font-family: inherit;
     font-size: 1.2em;
-    padding: 15px 30px;
+    padding: 15px;
     box-shadow: 2px 2px 2px #966909;
 }
 
 .RedoOrderButton:hover, .RedoOrderButton:active {
-    background-color:   rgb(250, 117, 100);
+    background-color:   rgb(247, 120, 115);
     border: 1px solid #966909;
     color: #966909;
 }
