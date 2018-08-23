@@ -51,7 +51,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -96,7 +98,9 @@
   },
   "description": "Click Link for Demo:  https://make-a-burger-app.herokuapp.com",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Aimeelynnramirez/make-a-burger-app.git"
@@ -106,5 +110,5 @@
   "bugs": {
     "url": "https://github.com/Aimeelynnramirez/make-a-burger-app/issues"
   },
-  "homepage": "https://github.com/Aimeelynnramirez/make-a-burger-app#readme"
+  "homepage": "https://aimeelynnramirez.github.io/make-a-burger-app"
 }
