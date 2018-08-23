@@ -13,6 +13,7 @@
  
 
 }
+
 .Box{
    max-width: 50%;
     background-color:#fff;
@@ -85,7 +86,11 @@ strong{
     border: 1px solid #ccc;
     color: #888888;
 }
+.Link{
+    text-decoration: none;
+     color: #966909;
 
+}
 .RedoOrderButton:not(:disabled) {
     animation: enable 0.3s linear;
 }

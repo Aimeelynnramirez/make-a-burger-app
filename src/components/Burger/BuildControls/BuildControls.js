@@ -1,14 +1,15 @@
 import React from 'react';
 import classes from './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
+import { Link } from 'react-router-dom';
 
 //redirecting in js
 function refreshPage(){ 
     var initialPage = window.location.pathname;
     window.location.replace(
-        ('/make-a-burger-app/' + initialPage));
+        ('/make-a-burger-app' + initialPage));
     }
-
+ 
 const controls = [
     { label: 'Salad', type: 'salad' },
     { label: 'Bacon', type: 'bacon' },
@@ -18,7 +19,7 @@ const controls = [
 
 const buildControls = (props) => (
     <div className={classes.BuildControls}>
- 
+      
         {controls.map(ctrl => (
             <BuildControl 
                 key={ctrl.label} 
@@ -35,6 +36,7 @@ const buildControls = (props) => (
             onClick={ refreshPage }
             > 
             <span>REDO ORDER</span> </button> 
+    
           
             <p className={classes.Box}>Current Price: <strong>{props.price.toFixed(2)}</strong>
             </p>
@@ -44,7 +46,14 @@ const buildControls = (props) => (
             onClick={props.ordered}>ORDER NOW</button>   
             
             </p>
- 
+            <nav>
+     <button className={classes.OrderButton}> 
+     <Link  className={classes.Link}to="/make-a-burger-app">DASHBOARD</Link></button>
+    </nav>
+    <h1>Welcome to Make A Burger!</h1>
+    <div>
+
+    </div>
     </div>
 );
 
