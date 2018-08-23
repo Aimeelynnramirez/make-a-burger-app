@@ -91,6 +91,9 @@ strong{
      color: #966909;
 
 }
+h1{
+    color: #000;
+}
 .RedoOrderButton:not(:disabled) {
     animation: enable 0.3s linear;
 }
