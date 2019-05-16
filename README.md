@@ -1,6 +1,9 @@
 Click Link for Demo: 
 
 **Update: backend fixed**
+on auths
+
+---------------------------------------------------------------
 https://aimeelynnramirez.github.io/make-a-burger-app/ 
 
 
