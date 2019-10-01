@@ -1,7 +1,7 @@
 .Button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: rgb(14, 173, 49);
     outline: none;
     cursor: pointer;
     font: inherit;
