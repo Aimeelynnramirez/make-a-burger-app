@@ -40,7 +40,7 @@ const buildControls = (props) => (
             className={classes.RedoOrderButton}
             disabled={!props.purchasable}
             type="button" 
-            onClick={ refreshPage }
+            onClick={refreshPage}
             > 
             <span>REDO ORDER</span> </button> 
     
